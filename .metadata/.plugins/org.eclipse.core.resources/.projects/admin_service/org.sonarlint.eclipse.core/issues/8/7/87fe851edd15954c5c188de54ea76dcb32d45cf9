@@ -1,0 +1,28 @@
+
+b
+java:S1135D"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH—\RINFOZ
+CODE_SMELL
+b
+java:S1135<"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH•\RINFOZ
+CODE_SMELL
+b
+java:S1135R"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH˜\RINFOZ
+CODE_SMELL
+b
+java:S1135%"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH–\RINFOZ
+CODE_SMELL
+p
+java:S2583V"DChange this condition so that it does not always evaluate to "false"(¹¿†´8âõ›ÿª0H™`RMAJORZBUG
+h
+java:S3655Z"<Call "optionalAdmin.isPresent()" before accessing the value.(Ø°¨÷8âõ›ÿª0H˜`RMAJORZBUG
+k
+java:S2789H"FEnsure this "Optional" could never be null and remove this null-check.(¹¿†´HŠ\RMAJORZBUG
+p
+java:S2583H"DChange this condition so that it does not always evaluate to "false"(¹¿†´8âõ›ÿª0H`RMAJORZBUG
+k
+java:S2789V"FEnsure this "Optional" could never be null and remove this null-check.(¹¿†´H‹\RMAJORZBUG
+s	java:S125-"<This block of commented-out lines of code should be removed.(•Ðæ›ûÿÿÿÿ8¶Âºÿª0HÔ`RMAJORZ
+CODE_SMELL
+‹
+java:S1128"XRemove this unused import 'com.aglcropsystem.exceptions.AuthenticationFailureException'.(ð³žÇ8¶Âºÿª0HÛ`RMINORZ
+CODE_SMELL

@@ -1,0 +1,22 @@
+
+w
+java:S2789B"FEnsure this "Optional" could never be null and remove this null-check.(³àÚ¨şÿÿÿÿ8ŠŸü¦¢0Hı^RMAJORZBUG
+–
+java:S14887"^Immediately return this expression instead of assigning it to the temporary variable "farmer".(ô»Úæüÿÿÿÿ8ıœñ¦¢0Hş^RMINORZ
+CODE_SMELL
+“
+java:S11924"]Define a constant instead of duplicating this literal "Farmer not exising with id: " 3 times.(‰ƒ—‹8•¸Ã°£0H_RCRITICALZ
+CODE_SMELL
+˜
+java:S1488F"eImmediately return this expression instead of assigning it to the temporary variable "updatedFarmer".(º®íÉ8ŠŸü¦¢0H…_RMINORZ
+CODE_SMELL
+u
+java:S25833"DChange this condition so that it does not always evaluate to "false"(³àÚ¨şÿÿÿÿ8ŠŸü¦¢0Hˆ_RMAJORZBUG
+u
+java:S2583B"DChange this condition so that it does not always evaluate to "false"(³àÚ¨şÿÿÿÿ8×í¦¢0HŒ_RMAJORZBUG
+n
+java:S36557"=Call "optionalFarmer.isPresent()" before accessing the value.(ô»Úæüÿÿÿÿ8âƒƒ§¢0H_RMAJORZBUG
+n	java:S125L"<This block of commented-out lines of code should be removed.(åÚÿ®8¶èÀ°£0H‘_RMAJORZ
+CODE_SMELL
+w
+java:S27893"FEnsure this "Optional" could never be null and remove this null-check.(³àÚ¨şÿÿÿÿ8ıœñ¦¢0H™_RMAJORZBUG

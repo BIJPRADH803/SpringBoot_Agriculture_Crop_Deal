@@ -1,0 +1,19 @@
+
+n
+java:S36552"=Call "optionalDealer.isPresent()" before accessing the value.(Ç÷·­şÿÿÿÿ8–ş¢¢0H‚SRMAJORZBUG
+s	java:S125^"<This block of commented-out lines of code should be removed.(Ì¹İÃùÿÿÿÿ8â³‡²£0HƒSRMAJORZ
+CODE_SMELL
+u
+java:S2583<"DChange this condition so that it does not always evaluate to "false"(Ç –Ïùÿÿÿÿ8¨Íê¢¢0H‹SRMAJORZBUG
+w
+java:S2789."FEnsure this "Optional" could never be null and remove this null-check.(Ç –Ïùÿÿÿÿ8¨Íê¢¢0HSRMAJORZBUG
+˜
+java:S1488@"eImmediately return this expression instead of assigning it to the temporary variable "updatedDealer".(Ìæ¸ò8¦–ö¢¢0HSRMINORZ
+CODE_SMELL
+u
+java:S2583."DChange this condition so that it does not always evaluate to "false"(Ç –Ïùÿÿÿÿ8ú¿û¢¢0H“SRMAJORZBUG
+–
+java:S14882"^Immediately return this expression instead of assigning it to the temporary variable "dealer".(Ç÷·­şÿÿÿÿ8¨Íê¢¢0H—SRMINORZ
+CODE_SMELL
+w
+java:S2789<"FEnsure this "Optional" could never be null and remove this null-check.(Ç –Ïùÿÿÿÿ8ôÅğ¢¢0HšSRMAJORZBUG

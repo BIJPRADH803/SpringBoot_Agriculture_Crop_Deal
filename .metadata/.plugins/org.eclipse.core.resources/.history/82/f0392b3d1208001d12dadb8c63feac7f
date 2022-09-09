@@ -1,0 +1,61 @@
+package com.aglcropsystem.controller;
+
+
+import java.util.List;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.aglcropsystem.model.Crops;
+import com.aglcropsystem.repository.CropsRepo;
+
+
+@CrossOrigin(origins="*")
+@RestController
+@RequestMapping("/api")
+public class CropsController {
+	
+
+	
+	@Autowired
+   CropsRepo repo;
+	
+	@RequestMapping(value="/crop",method=RequestMethod.GET)
+	public List<Crops> getAllCropsDetails(){
+		return repo.findAll();
+	}
+	
+	@RequestMapping(value="/crop/{id}",method=RequestMethod.GET)
+	  public List<Crops> getCropsDetails(@PathVariable String id) {
+		return repo.findByFarmerId(id);
+	  }
+	
+	@RequestMapping(value="/farmerCrop/{farmerId}",method=RequestMethod.GET)
+	  public List<Crops> getByFarmerId(@PathVariable String farmerId) {
+		return repo.findByFarmerId(farmerId);
+	  }
+	
+
+	  @RequestMapping(value="/addcrop",method=RequestMethod.POST)
+	  public void addCropDetails(@RequestBody Crops crops) {
+		  repo.insert(crops);
+	  }
+
+	  @RequestMapping(value="/crop/{id}",method=RequestMethod.PUT)
+	  public void updateCropsDetails(@PathVariable String id, @RequestBody Crops crops) {
+		  repo.save(crops);
+	  }
+
+	  @RequestMapping(value="/crop/{id}",method=RequestMethod.DELETE)
+	  public void deleteCropsDetails(@PathVariable String id) {
+	    repo.deleteById(id);
+	  }
+}

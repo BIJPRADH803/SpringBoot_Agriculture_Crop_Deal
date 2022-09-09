@@ -1,0 +1,151 @@
+package com.aglcropsystem.controller;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.aglcropsystem.models.Admin;
+import com.aglcropsystem.models.Crops;
+import com.aglcropsystem.models.Dealer;
+import com.aglcropsystem.models.Farmer;
+import com.aglcropsystem.services.AdminService;
+import com.aglcropsystem.services.LoginService;
+
+import io.swagger.annotations.ApiOperation;
+
+
+/* Name: Bijay Pradhan
+ * EmpId: 46595803
+ * 
+ * 
+ */
+@CrossOrigin("*")
+@RestController
+@RequestMapping("/admin")
+public class AdminController 
+{
+    
+	/*
+	 * logger declare
+	 */
+	Logger logger = LoggerFactory.getLogger(AdminController.class);
+	
+	@Autowired
+	private AdminService service;
+	
+	@Autowired
+	private LoginService admin;
+	
+	
+	
+    @Autowired
+	private RestTemplate restTemplate;
+    
+    //Admin operations
+    @PostMapping("/add")
+    @ApiOperation(value="To Add admin Details")
+    public String saveAdmin(@RequestBody Admin admin)
+    {
+    	logger.info("Adding Admin");
+    	service.saveAdmin(admin);
+		return "Registration Succefully!!!";
+    }
+    @PutMapping("account/update")
+    @ApiOperation(value="To update admin details")
+    public String updateAdmin(@RequestBody Admin admin,@RequestParam int id) {
+    	logger.info("Updating the admin details");
+    	service.updateAdmin(admin);
+        return "Updated succesfully";
+}
+    
+    @GetMapping("/allAdmins")
+	@ApiOperation(value = "To Get all Admins Details")
+	public List<Admin> findAll() {
+    	logger.info("Getting all admins");
+    	return service.findAll();
+		
+	}
+    @DeleteMapping("/account/delete")
+	@ApiOperation(value = "To delete admin Details")
+	public String deleteAdmin(@RequestBody Admin admin,@RequestParam int id ) {
+    	logger.info("Deleting the  admin account");
+    	service.deleteAdmin(id);
+	 return "Deleted Succesfull!!!";
+
+	}
+    
+    /*
+ 	 * doAdminLogin() is used to login to the farmer dashboard
+ 	 */
+    @PostMapping("/login")
+
+	public String adminLogin(@RequestBody Admin login) {
+		logger.info("Admin login");
+		return admin.adminLogin(login);
+	}
+    
+    
+ 	/*
+ 	 * doAdminLogin() is used to login to the farmer dashboard
+ 	 */
+
+//	@PostMapping("/admin-login")
+// 	public ResponseEntity<Admin> doAdminLogin(@RequestParam("name") String name,
+// 			@RequestParam("password") final String password) {
+//	   logger.info("admin is logging-START");
+// 		Admin admin = service.adminLogin(name, password);
+//
+// 		ResponseEntity<Admin> responseEntity = new ResponseEntity<>(admin, HttpStatus.OK);
+//		logger.info("admin logged in successfully-END");
+//		return responseEntity;
+//
+// 	}
+//  
+	
+	
+      //Rest template
+	
+	
+	  @GetMapping("/allFarmers")
+	  public List<Farmer> fetchAllFarmers() {
+		 String baseurl="http://localhost:9003/farmer/allFarmers";
+		 Farmer[] farmer =restTemplate.getForObject(baseurl, Farmer[].class);
+			return Arrays.asList(farmer);
+	  }
+
+		
+			
+	  @GetMapping("/allDealers")
+		public List<Dealer> fetchAllDealers() {
+		  String baseurl="http://localhost:9002/dealer/allDealers";
+			 Dealer[] user =restTemplate.getForObject(baseurl, Dealer[].class);
+				return Arrays.asList(user);
+		}
+
+		
+	    @GetMapping("/allCrops")
+			public List<Crops> fetchAllCrops() {
+			  String baseurl="http://localhost:9001/crop/allCrops";
+				 Crops[] crops =restTemplate.getForObject(baseurl, Crops[].class);
+					return Arrays.asList(crops);
+			}
+
+	
+	
+	
+}

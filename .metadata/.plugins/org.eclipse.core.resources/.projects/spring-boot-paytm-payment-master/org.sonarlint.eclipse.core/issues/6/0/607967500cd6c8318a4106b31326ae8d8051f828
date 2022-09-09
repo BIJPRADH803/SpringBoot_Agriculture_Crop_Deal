@@ -1,0 +1,12 @@
+
+Š
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(„ÝëªûÿÿÿÿHöURMINORZ
+CODE_SMELL
+|
+java:S1192/"MDefine a constant instead of duplicating this literal "CHECKSUMHASH" 3 times.(ö‘€±HøURCRITICALZ
+CODE_SMELL
+h
+java:S1612("<Replace this lambda with method reference 'parameters::put'.(ö¾ÉHüURMINORZ
+CODE_SMELL
+d	java:S106E"9Replace this use of System.out or System.err by a logger.(ŒíÀàHþURMAJORZ
+CODE_SMELL

@@ -1,0 +1,18 @@
+
+p	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.( ï€kHèZRMAJORZ
+CODE_SMELL
+v	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿHéZRMAJORZ
+CODE_SMELL
+p	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.( ï€kHêZRMAJORZ
+CODE_SMELL
+v	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿHëZRMAJORZ
+CODE_SMELL
+P
+java:S3751("Make this method non "private".(ã¯É úÿÿÿÿHìZRMAJORZ
+CODE_SMELL
+P
+java:S3751."Make this method non "private".(”ÚîçüÿÿÿÿHíZRMAJORZ
+CODE_SMELL
+K
+java:S3751J"Make this method non "private".(ü¼ÛHîZRMAJORZ
+CODE_SMELL

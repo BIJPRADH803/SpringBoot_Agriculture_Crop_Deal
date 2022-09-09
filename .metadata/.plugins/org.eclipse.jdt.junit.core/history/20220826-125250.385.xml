@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CropsServiceTests" project="Crop_Service" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.aglcropsystem.services.CropsServiceTests" time="0.061" displayname="CropsServiceTests" uniqueid="[engine:junit-jupiter]/[class:com.aglcropsystem.services.CropsServiceTests]">
+    <testcase name="testAddCrop" classname="com.aglcropsystem.services.CropsServiceTests" time="0.023" displayname="testAddCrop()" uniqueid="[engine:junit-jupiter]/[class:com.aglcropsystem.services.CropsServiceTests]/[method:testAddCrop()]"/>
+    <testcase name="testGetAllCrop" classname="com.aglcropsystem.services.CropsServiceTests" time="0.018" displayname="testGetAllCrop()" uniqueid="[engine:junit-jupiter]/[class:com.aglcropsystem.services.CropsServiceTests]/[method:testGetAllCrop()]"/>
+    <testcase name="testDeleteCrop" classname="com.aglcropsystem.services.CropsServiceTests" time="0.014" displayname="testDeleteCrop()" uniqueid="[engine:junit-jupiter]/[class:com.aglcropsystem.services.CropsServiceTests]/[method:testDeleteCrop()]"/>
+  </testsuite>
+</testrun>

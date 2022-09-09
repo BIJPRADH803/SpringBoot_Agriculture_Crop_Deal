@@ -1,0 +1,56 @@
+package com.aglcropsystem.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.aglcropsystem.models.Dealer;
+import com.aglcropsystem.repository.DealerRepository;
+
+
+
+@Service
+public class DealerServiceImpl implements DealerService{
+	
+	@Autowired
+	public DealerRepository dealerrepo;
+
+
+	@Override
+	public <DealerRepo> List<Dealer> getAll() {
+		return dealerrepo.findAll();
+	}
+
+	@Override
+	public Optional<Dealer> findById(String id) {
+		return DealerRepo.findById(id);
+	}
+
+	@Override
+	public String deleteDealer(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String update(Dealer dealer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updatebyusername(Dealer dealer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Dealer> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

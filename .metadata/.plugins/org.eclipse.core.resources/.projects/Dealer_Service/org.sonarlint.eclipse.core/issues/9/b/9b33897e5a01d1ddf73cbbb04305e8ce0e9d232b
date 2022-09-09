@@ -1,0 +1,38 @@
+
+a
+java:S1452F"&Remove usage of generic wildcard type.(‘’ÿÿÿÿÿ8ÌƒÛ£¢0Hô\RCRITICALZ
+CODE_SMELL
+
+java:S4684§"@Replace this persistent entity with a simple POJO or DTO object.(«êùüÿÿÿÿ8„²êÑ¤0Hõ\RCRITICALZVULNERABILITY
+~
+java:S4684}"@Replace this persistent entity with a simple POJO or DTO object.(åé«™ûÿÿÿÿ8„²êÑ¤0Hö\RCRITICALZVULNERABILITY
+’
+java:S1488t"_Immediately return this expression instead of assigning it to the temporary variable "dealers".(ÿ“¬Û8»òÇ¤0H÷\RMINORZ
+CODE_SMELL
+t	java:S125Ñ"<This block of commented-out lines of code should be removed.(ÈÛ¬àüÿÿÿÿ8òŸ Â¤0Hú\RMAJORZ
+CODE_SMELL
+b
+java:S1452‹"&Remove usage of generic wildcard type.(«£¢îúÿÿÿÿ8´î³Æ§0Hÿ\RCRITICALZ
+CODE_SMELL
+t	java:S125Ü"<This block of commented-out lines of code should be removed.(¼Ø—àùÿÿÿÿ8ä˜óÇ¤0H€]RMAJORZ
+CODE_SMELL
+t	java:S125ó"<This block of commented-out lines of code should be removed.(‰üûÿÿÿÿ8ŞıŒ²£0H]RMAJORZ
+CODE_SMELL
+t	java:S125„"<This block of commented-out lines of code should be removed.(‰üûÿÿÿÿ8­·ãÑ¤0H’]RMAJORZ
+CODE_SMELL
+t	java:S125ú"<This block of commented-out lines of code should be removed.(­ÂøÉÿÿÿÿÿ8„²êÑ¤0H˜]RMAJORZ
+CODE_SMELL
+€
+java:S1128"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ8¹¸Æ§0H]RMINORZ
+CODE_SMELL
+x	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(ïÔœ¥8´î³Æ§0H ]RMAJORZ
+CODE_SMELL
+}	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8·Ø´Æ§0H¡]RMAJORZ
+CODE_SMELL
+ƒ	java:S116C"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÁü8òŸ Â¤0H¢]RMINORZ
+CODE_SMELL
+s	java:S125="<This block of commented-out lines of code should be removed.(ÿ€ú“ÿÿÿÿÿ8¹¸Æ§0H£]RMAJORZ
+CODE_SMELL
+š
+java:S1488€"fImmediately return this expression instead of assigning it to the temporary variable "responseEntity".(§à¢ò8ÌƒÛ£¢0H¤]RMINORZ
+CODE_SMELL

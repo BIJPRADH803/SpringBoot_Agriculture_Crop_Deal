@@ -1,0 +1,20 @@
+
+x
+java:S4684c"@Replace this persistent entity with a simple POJO or DTO object.(€œîR8Ğşª0H¨_RCRITICALZVULNERABILITY
+r
+java:S4684@"@Replace this persistent entity with a simple POJO or DTO object.(ëìû¶Hò\RCRITICALZVULNERABILITY
+‰
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.PathVariable'.(¹ûñÅşÿÿÿÿ8Ï–×ıª0HÕ]RMINORZ
+CODE_SMELL
+r
+java:S4684H"@Replace this persistent entity with a simple POJO or DTO object.(“ÅÄìHó\RCRITICALZVULNERABILITY
+w
+java:S4684W"@Replace this persistent entity with a simple POJO or DTO object.(¨ŠÍßıÿÿÿÿHñ\RCRITICALZVULNERABILITY
+s	java:S125o"<This block of commented-out lines of code should be removed.(ÈÛ¬àüÿÿÿÿ8Š¹ÿª0H¥`RMAJORZ
+CODE_SMELL
+x
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8Š¹ÿª0H¬`RMINORZ
+CODE_SMELL
+|
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8Š¹ÿª0H®`RMINORZ
+CODE_SMELL

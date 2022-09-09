@@ -1,0 +1,27 @@
+
+t	java:S125—"<This block of commented-out lines of code should be removed.(ö¹Îìûÿÿÿÿ8ÛÈÀÀ¤0H’[RMAJORZ
+CODE_SMELL
+ƒ	java:S116("QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëµ¸Ã8ß›Ä¿¤0H–[RMINORZ
+CODE_SMELL
+x
+java:S4684P"@Replace this persistent entity with a simple POJO or DTO object.(ê£—<8çË°·¦0H•[RCRITICALZVULNERABILITY
+‹
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬÷Äm8¬çÍ¿¤0HŒ[RMINORZ
+CODE_SMELL
+~
+java:S4684E"@Replace this persistent entity with a simple POJO or DTO object.(øÍ°Êøÿÿÿÿ8çË°·¦0Hš[RCRITICALZVULNERABILITY
+‘
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(ç‚™åûÿÿÿÿ8½ÃÖÀ¤0H[RMINORZ
+CODE_SMELL
+o	java:S125"<This block of commented-out lines of code should be removed.(©¦ß®8©—¦À¤0H—[RMAJORZ
+CODE_SMELL
+Œ
+java:S2293_"YReplace the type specification in this constructor call with the diamond operator ("<>").(ıŸÈ©8©—¦À¤0H[RMINORZ
+CODE_SMELL
+o	java:S125¨"<This block of commented-out lines of code should be removed.(é«øî8è¬Ï½¤0H›[RMAJORZ
+CODE_SMELL
+t	java:S125…"<This block of commented-out lines of code should be removed.(ÌÎ²èÿÿÿÿÿ8Ÿ½ó¿¤0H[RMAJORZ
+CODE_SMELL
+Œ
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(éĞ¹±8ÛÈÀÀ¤0HÿZRMINORZ
+CODE_SMELL

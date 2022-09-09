@@ -1,0 +1,20 @@
+
+ˆ	java:S116&"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ž²·¥þÿÿÿÿ8Øœ„Ò¤0HÚ\RMINORZ
+CODE_SMELL
+a
+java:S1452U"&Remove usage of generic wildcard type.(×“˜“ÿÿÿÿÿ8×õ’§¢0HÞ\RCRITICALZ
+CODE_SMELL
+ž
+java:S1488L"fImmediately return this expression instead of assigning it to the temporary variable "responseEntity".(•¤¢ÿûÿÿÿÿ8Ïçš§¢0H×\RMINORZ
+CODE_SMELL
+n	java:S125c"<This block of commented-out lines of code should be removed.(Ïœ¸ü8ÈÍ°£0HÑ\RMAJORZ
+CODE_SMELL
+~
+java:S4684I"@Replace this persistent entity with a simple POJO or DTO object.(ÎƒÔÕþÿÿÿÿ8Ž§§°£0HÖ\RCRITICALZVULNERABILITY
+ˆ	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹€Žáüÿÿÿÿ8Ïçš§¢0Hß\RMINORZ
+CODE_SMELL
+—
+java:S1488@"_Immediately return this expression instead of assigning it to the temporary variable "farmers".(ÑîÝøÿÿÿÿ8˜¤Ÿ§¢0HÛ\RMINORZ
+CODE_SMELL
+y
+java:S4684q"@Replace this persistent entity with a simple POJO or DTO object.(È¡ùç8Ž§§°£0HÕ\RCRITICALZVULNERABILITY

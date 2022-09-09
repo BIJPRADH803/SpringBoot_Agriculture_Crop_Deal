@@ -1,0 +1,22 @@
+package com.aglcropsystem.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.aglcropsystem.models.Dealer;
+
+public interface DealerService {
+
+	public <DealerRepo> List<Dealer> getAll();
+
+	Optional<Dealer> findById(String id);
+
+	String deleteDealer(String id);
+
+	String update(Dealer dealer);
+
+	String updatebyusername(Dealer dealer);
+
+	List<Dealer> findAll();
+
+}

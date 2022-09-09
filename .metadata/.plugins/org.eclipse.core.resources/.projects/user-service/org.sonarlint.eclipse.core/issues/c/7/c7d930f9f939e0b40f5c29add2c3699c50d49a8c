@@ -1,0 +1,11 @@
+
+g	java:S125"<This block of commented-out lines of code should be removed.(å©ÉäHÍRRMAJORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(Ñ¹ÄıÿÿÿÿHÎRRMAJORZ
+CODE_SMELL
+`
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿHÏRRMINORZ
+CODE_SMELL
+O
+java:S1128	"Remove this duplicated import.(ë‚øÅúÿÿÿÿHÑRRMINORZ
+CODE_SMELL

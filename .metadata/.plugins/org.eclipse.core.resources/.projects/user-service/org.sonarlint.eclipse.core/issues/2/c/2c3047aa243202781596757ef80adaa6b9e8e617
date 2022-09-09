@@ -1,0 +1,32 @@
+
+q	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(ïÔœ¥H›SRMAJORZ
+CODE_SMELL
+v	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿHœSRMAJORZ
+CODE_SMELL
+†
+java:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì§Ü÷HSRMINORZ
+CODE_SMELL
+†
+java:S2293¤"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßğøóHŸSRMINORZ
+CODE_SMELL
+Š
+java:S1488q"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÂàêH¡SRMINORZ
+CODE_SMELL
+l	java:S125'"<This block of commented-out lines of code should be removed.(‰ü›¬ıÿÿÿÿH¤SRMAJORZ
+CODE_SMELL
+Z
+java:S1452P"&Remove usage of generic wildcard type.(‘’ÿÿÿÿÿH¥SRCRITICALZ
+CODE_SMELL
+w
+java:S4684c"@Replace this persistent entity with a simple POJO or DTO object.(õÜâ²úÿÿÿÿH¦SRCRITICALZVULNERABILITY
+w
+java:S4684p"@Replace this persistent entity with a simple POJO or DTO object.(şâ¡ûÿÿÿÿÿH§SRCRITICALZVULNERABILITY
+w
+java:S4684~"@Replace this persistent entity with a simple POJO or DTO object.(ÄÇ¬¤ıÿÿÿÿH¨SRCRITICALZVULNERABILITY
+x
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ä³À¾üÿÿÿÿH©SRCRITICALZVULNERABILITY
+s
+java:S4684¡"@Replace this persistent entity with a simple POJO or DTO object.(óßÅ‹HªSRCRITICALZVULNERABILITY
+c
+java:S1128!"2Remove this unused import 'com.cg.models.Payment'.(Ä“¨°øÿÿÿÿH«SRMINORZ
+CODE_SMELL

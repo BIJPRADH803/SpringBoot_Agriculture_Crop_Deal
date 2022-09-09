@@ -1,0 +1,22 @@
+
+w
+java:S2789C"FEnsure this "Optional" could never be null and remove this null-check.(²¯Ýëøÿÿÿÿ8ô÷Å ¢0H°BRMAJORZBUG
+g
+java:S3655G"<Call "optionalCrops.isPresent()" before accessing the value.(Ó¶ù)8ŽÔ¥Ÿ¢0H±BRMAJORZBUG
+u
+java:S2583C"DChange this condition so that it does not always evaluate to "false"(²¯Ýëøÿÿÿÿ8›‹¡¢0H¬BRMAJORZBUG
+”
+java:S1488#"\Immediately return this expression instead of assigning it to the temporary variable "crop".(ûæÍåøÿÿÿÿ8§‰Ÿ¢0H³BRMINORZ
+CODE_SMELL
+u
+java:S25836"DChange this condition so that it does not always evaluate to "false"(²¯Ýëøÿÿÿÿ8¾Ñ£Ÿ¢0H BRMAJORZBUG
+
+java:S1488G"]Immediately return this expression instead of assigning it to the temporary variable "crops".(Ó¶ù)8ŽÔ¥Ÿ¢0H¹BRMINORZ
+CODE_SMELL
+w
+java:S27896"FEnsure this "Optional" could never be null and remove this null-check.(²¯Ýëøÿÿÿÿ8›‹¡¢0H²BRMAJORZBUG
+—
+java:S1488:"dImmediately return this expression instead of assigning it to the temporary variable "updatedCrops".(ø¡Éõ8ø¾Æ ¢0H¶BRMINORZ
+CODE_SMELL
+n	java:S125q"<This block of commented-out lines of code should be removed.(‰é°8Ã«›À¤0H¤BRMAJORZ
+CODE_SMELL

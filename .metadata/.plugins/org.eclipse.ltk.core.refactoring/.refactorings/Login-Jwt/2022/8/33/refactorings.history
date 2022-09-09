@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jwt.repository.DealeRepository&apos; to &apos;DealerRepository&apos;&#x0D;&#x0A;- Original project: &apos;Login-Jwt&apos;&#x0D;&#x0A;- Original element: &apos;com.jwt.repository.DealeRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jwt.repository.DealerRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DealeRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jwt.repository{DealeRepository.java[DealeRepository" matchStrategy="1" name="DealerRepository" qualified="false" references="true" similarDeclarations="false" stamp="1659863816336" textual="false" version="1.0"/>
+</session>

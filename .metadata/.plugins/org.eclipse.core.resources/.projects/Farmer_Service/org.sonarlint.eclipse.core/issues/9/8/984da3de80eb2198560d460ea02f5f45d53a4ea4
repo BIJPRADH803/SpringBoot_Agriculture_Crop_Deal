@@ -1,0 +1,27 @@
+
+’
+java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "responseEntity".(ù¬ËÏH€`RMINORZ
+CODE_SMELL
+’
+java:S1488("fImmediately return this expression instead of assigning it to the temporary variable "responseEntity".(ù¬ËÏHƒ`RMINORZ
+CODE_SMELL
+’
+java:S14885"fImmediately return this expression instead of assigning it to the temporary variable "responseEntity".(ýöÁH†`RMINORZ
+CODE_SMELL
+œ
+java:S4144""pUpdate this method so that its implementation is not identical to "handleFarmerNotExistingException" on line 23.(Õ âÔH‰`RMAJORZ
+CODE_SMELL
+s
+java:S1858"G"getRequestURI" returns a string, there's no need to call "toString()".(–ÊÇ¶H‹`RMINORZ
+CODE_SMELL
+s
+java:S1858$"G"getRequestURI" returns a string, there's no need to call "toString()".(–ÊÇ¶H`RMINORZ
+CODE_SMELL
+s
+java:S18581"G"getRequestURI" returns a string, there's no need to call "toString()".(–ÊÇ¶H`RMINORZ
+CODE_SMELL
+f	java:S125>"<This block of commented-out lines of code should be removed.(ÊŽœ%H‘`RMAJORZ
+CODE_SMELL
+
+java:S1612B"^Replace this lambda with method reference 'DefaultMessageSourceResolvable::getDefaultMessage'.(ó¼Ô­ùÿÿÿÿH’`RMINORZ
+CODE_SMELL
